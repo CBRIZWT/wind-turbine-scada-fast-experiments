@@ -1,0 +1,456 @@
+{
+  "schema_version": "fast-run-manifest-v3",
+  "started": "2026-08-09 15:06:51",
+  "python": "E:\\ancoda\\chuangxin\\python.exe",
+  "variant": "real_fault_metrics_v1",
+  "result_set": "快速实验结果_十指标_WT0110",
+  "seed": 0,
+  "expected_runs": 77,
+  "runs": {
+    "penmanshiel/00_基线_残差能量": {
+      "status": "skipped_complete",
+      "metrics": "E:\\创新\\快速实验\\快速实验结果_十指标_WT0110\\penmanshiel\\00_基线_残差能量\\metrics.json"
+    },
+    "penmanshiel/01_逻辑回归": {
+      "status": "skipped_complete",
+      "metrics": "E:\\创新\\快速实验\\快速实验结果_十指标_WT0110\\penmanshiel\\01_逻辑回归\\metrics.json"
+    },
+    "penmanshiel/02_感知机": {
+      "status": "skipped_complete",
+      "metrics": "E:\\创新\\快速实验\\快速实验结果_十指标_WT0110\\penmanshiel\\02_感知机\\metrics.json"
+    },
+    "penmanshiel/03_朴素贝叶斯": {
+      "status": "skipped_complete",
+      "metrics": "E:\\创新\\快速实验\\快速实验结果_十指标_WT0110\\penmanshiel\\03_朴素贝叶斯\\metrics.json"
+    },
+    "penmanshiel/04_LDA": {
+      "status": "skipped_complete",
+      "metrics": "E:\\创新\\快速实验\\快速实验结果_十指标_WT0110\\penmanshiel\\04_LDA\\metrics.json"
+    },
+    "penmanshiel/05_QDA": {
+      "status": "skipped_complete",
+      "metrics": "E:\\创新\\快速实验\\快速实验结果_十指标_WT0110\\penmanshiel\\05_QDA\\metrics.json"
+    },
+    "penmanshiel/06_K近邻": {
+      "status": "skipped_complete",
+      "metrics": "E:\\创新\\快速实验\\快速实验结果_十指标_WT0110\\penmanshiel\\06_K近邻\\metrics.json"
+    },
+    "penmanshiel/07_决策树": {
+      "status": "skipped_complete",
+      "metrics": "E:\\创新\\快速实验\\快速实验结果_十指标_WT0110\\penmanshiel\\07_决策树\\metrics.json"
+    },
+    "penmanshiel/08_随机森林": {
+      "status": "skipped_complete",
+      "metrics": "E:\\创新\\快速实验\\快速实验结果_十指标_WT0110\\penmanshiel\\08_随机森林\\metrics.json"
+    },
+    "penmanshiel/09_ExtraTrees": {
+      "status": "skipped_complete",
+      "metrics": "E:\\创新\\快速实验\\快速实验结果_十指标_WT0110\\penmanshiel\\09_ExtraTrees\\metrics.json"
+    },
+    "penmanshiel/10_AdaBoost": {
+      "status": "skipped_complete",
+      "metrics": "E:\\创新\\快速实验\\快速实验结果_十指标_WT0110\\penmanshiel\\10_AdaBoost\\metrics.json"
+    },
+    "penmanshiel/11_直方图梯度提升": {
+      "status": "skipped_complete",
+      "metrics": "E:\\创新\\快速实验\\快速实验结果_十指标_WT0110\\penmanshiel\\11_直方图梯度提升\\metrics.json"
+    },
+    "penmanshiel/12_XGBoost": {
+      "status": "skipped_complete",
+      "metrics": "E:\\创新\\快速实验\\快速实验结果_十指标_WT0110\\penmanshiel\\12_XGBoost\\metrics.json"
+    },
+    "penmanshiel/13_LightGBM": {
+      "status": "skipped_complete",
+      "metrics": "E:\\创新\\快速实验\\快速实验结果_十指标_WT0110\\penmanshiel\\13_LightGBM\\metrics.json"
+    },
+    "penmanshiel/14_CatBoost": {
+      "status": "skipped_complete",
+      "metrics": "E:\\创新\\快速实验\\快速实验结果_十指标_WT0110\\penmanshiel\\14_CatBoost\\metrics.json"
+    },
+    "penmanshiel/15_线性SVM": {
+      "status": "skipped_complete",
+      "metrics": "E:\\创新\\快速实验\\快速实验结果_十指标_WT0110\\penmanshiel\\15_线性SVM\\metrics.json"
+    },
+    "penmanshiel/16_核SVM": {
+      "status": "skipped_complete",
+      "metrics": "E:\\创新\\快速实验\\快速实验结果_十指标_WT0110\\penmanshiel\\16_核SVM\\metrics.json"
+    },
+    "penmanshiel/17_高斯过程": {
+      "status": "skipped_complete",
+      "metrics": "E:\\创新\\快速实验\\快速实验结果_十指标_WT0110\\penmanshiel\\17_高斯过程\\metrics.json"
+    },
+    "penmanshiel/18_孤立森林": {
+      "status": "skipped_complete",
+      "metrics": "E:\\创新\\快速实验\\快速实验结果_十指标_WT0110\\penmanshiel\\18_孤立森林\\metrics.json"
+    },
+    "penmanshiel/19_一类SVM": {
+      "status": "skipped_complete",
+      "metrics": "E:\\创新\\快速实验\\快速实验结果_十指标_WT0110\\penmanshiel\\19_一类SVM\\metrics.json"
+    },
+    "penmanshiel/20_LOF": {
+      "status": "skipped_complete",
+      "metrics": "E:\\创新\\快速实验\\快速实验结果_十指标_WT0110\\penmanshiel\\20_LOF\\metrics.json"
+    },
+    "penmanshiel/21_高斯混合": {
+      "status": "skipped_complete",
+      "metrics": "E:\\创新\\快速实验\\快速实验结果_十指标_WT0110\\penmanshiel\\21_高斯混合\\metrics.json"
+    },
+    "penmanshiel/22_MLP": {
+      "status": "skipped_complete",
+      "metrics": "E:\\创新\\快速实验\\快速实验结果_十指标_WT0110\\penmanshiel\\22_MLP\\metrics.json"
+    },
+    "penmanshiel/23_一维CNN": {
+      "status": "skipped_complete",
+      "metrics": "E:\\创新\\快速实验\\快速实验结果_十指标_WT0110\\penmanshiel\\23_一维CNN\\metrics.json"
+    },
+    "penmanshiel/24_简单RNN": {
+      "status": "skipped_complete",
+      "metrics": "E:\\创新\\快速实验\\快速实验结果_十指标_WT0110\\penmanshiel\\24_简单RNN\\metrics.json"
+    },
+    "penmanshiel/25_LSTM": {
+      "status": "skipped_complete",
+      "metrics": "E:\\创新\\快速实验\\快速实验结果_十指标_WT0110\\penmanshiel\\25_LSTM\\metrics.json"
+    },
+    "penmanshiel/26_GRU": {
+      "status": "skipped_complete",
+      "metrics": "E:\\创新\\快速实验\\快速实验结果_十指标_WT0110\\penmanshiel\\26_GRU\\metrics.json"
+    },
+    "penmanshiel/27_TCN": {
+      "status": "skipped_complete",
+      "metrics": "E:\\创新\\快速实验\\快速实验结果_十指标_WT0110\\penmanshiel\\27_TCN\\metrics.json"
+    },
+    "penmanshiel/28_Transformer": {
+      "status": "skipped_complete",
+      "metrics": "E:\\创新\\快速实验\\快速实验结果_十指标_WT0110\\penmanshiel\\28_Transformer\\metrics.json"
+    },
+    "penmanshiel/29_自编码器": {
+      "status": "skipped_complete",
+      "metrics": "E:\\创新\\快速实验\\快速实验结果_十指标_WT0110\\penmanshiel\\29_自编码器\\metrics.json"
+    },
+    "penmanshiel/30_变分自编码器": {
+      "status": "skipped_complete",
+      "metrics": "E:\\创新\\快速实验\\快速实验结果_十指标_WT0110\\penmanshiel\\30_变分自编码器\\metrics.json"
+    },
+    "penmanshiel/31_LSTM自编码器": {
+      "status": "skipped_complete",
+      "metrics": "E:\\创新\\快速实验\\快速实验结果_十指标_WT0110\\penmanshiel\\31_LSTM自编码器\\metrics.json"
+    },
+    "penmanshiel/32_DQN": {
+      "status": "skipped_complete",
+      "metrics": "E:\\创新\\快速实验\\快速实验结果_十指标_WT0110\\penmanshiel\\32_DQN\\metrics.json"
+    },
+    "penmanshiel/33_REINFORCE": {
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_sec": 284.202,
+      "metrics": "E:\\创新\\快速实验\\快速实验结果_十指标_WT0110\\penmanshiel\\33_REINFORCE\\metrics.json",
+      "log": "E:\\创新\\实验结果\\logs\\fast_metrics_v3\\penmanshiel__33_REINFORCE.log"
+    },
+    "penmanshiel/34_ActorCritic": {
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_sec": 261.62,
+      "metrics": "E:\\创新\\快速实验\\快速实验结果_十指标_WT0110\\penmanshiel\\34_ActorCritic\\metrics.json",
+      "log": "E:\\创新\\实验结果\\logs\\fast_metrics_v3\\penmanshiel__34_ActorCritic.log"
+    },
+    "penmanshiel/35_PPO": {
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_sec": 272.338,
+      "metrics": "E:\\创新\\快速实验\\快速实验结果_十指标_WT0110\\penmanshiel\\35_PPO\\metrics.json",
+      "log": "E:\\创新\\实验结果\\logs\\fast_metrics_v3\\penmanshiel__35_PPO.log"
+    },
+    "penmanshiel/36_PCA重构误差": {
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_sec": 255.307,
+      "metrics": "E:\\创新\\快速实验\\快速实验结果_十指标_WT0110\\penmanshiel\\36_PCA重构误差\\metrics.json",
+      "log": "E:\\创新\\实验结果\\logs\\fast_metrics_v3\\penmanshiel__36_PCA重构误差.log"
+    },
+    "penmanshiel/37_KMeans距离": {
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_sec": 271.048,
+      "metrics": "E:\\创新\\快速实验\\快速实验结果_十指标_WT0110\\penmanshiel\\37_KMeans距离\\metrics.json",
+      "log": "E:\\创新\\实验结果\\logs\\fast_metrics_v3\\penmanshiel__37_KMeans距离.log"
+    },
+    "penmanshiel/38_软投票集成": {
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_sec": 315.098,
+      "metrics": "E:\\创新\\快速实验\\快速实验结果_十指标_WT0110\\penmanshiel\\38_软投票集成\\metrics.json",
+      "log": "E:\\创新\\实验结果\\logs\\fast_metrics_v3\\penmanshiel__38_软投票集成.log"
+    },
+    "penmanshiel/39_Stacking堆叠": {
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_sec": 400.095,
+      "metrics": "E:\\创新\\快速实验\\快速实验结果_十指标_WT0110\\penmanshiel\\39_Stacking堆叠\\metrics.json",
+      "log": "E:\\创新\\实验结果\\logs\\fast_metrics_v3\\penmanshiel__39_Stacking堆叠.log"
+    },
+    "penmanshiel/40_马氏距离": {
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_sec": 277.894,
+      "metrics": "E:\\创新\\快速实验\\快速实验结果_十指标_WT0110\\penmanshiel\\40_马氏距离\\metrics.json",
+      "log": "E:\\创新\\实验结果\\logs\\fast_metrics_v3\\penmanshiel__40_马氏距离.log"
+    },
+    "penmanshiel/41_自监督_预测误差": {
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_sec": 285.204,
+      "metrics": "E:\\创新\\快速实验\\快速实验结果_十指标_WT0110\\penmanshiel\\41_自监督_预测误差\\metrics.json",
+      "log": "E:\\创新\\实验结果\\logs\\fast_metrics_v3\\penmanshiel__41_自监督_预测误差.log"
+    },
+    "penmanshiel/42_少样本_逻辑回归": {
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_sec": 285.87,
+      "metrics": "E:\\创新\\快速实验\\快速实验结果_十指标_WT0110\\penmanshiel\\42_少样本_逻辑回归\\metrics.json",
+      "log": "E:\\创新\\实验结果\\logs\\fast_metrics_v3\\penmanshiel__42_少样本_逻辑回归.log"
+    },
+    "penmanshiel/43_少样本_梯度提升": {
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_sec": 284.734,
+      "metrics": "E:\\创新\\快速实验\\快速实验结果_十指标_WT0110\\penmanshiel\\43_少样本_梯度提升\\metrics.json",
+      "log": "E:\\创新\\实验结果\\logs\\fast_metrics_v3\\penmanshiel__43_少样本_梯度提升.log"
+    },
+    "penmanshiel/44_少样本_原型法": {
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_sec": 260.103,
+      "metrics": "E:\\创新\\快速实验\\快速实验结果_十指标_WT0110\\penmanshiel\\44_少样本_原型法\\metrics.json",
+      "log": "E:\\创新\\实验结果\\logs\\fast_metrics_v3\\penmanshiel__44_少样本_原型法.log"
+    },
+    "penmanshiel/45_少样本_半监督自训练": {
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_sec": 281.991,
+      "metrics": "E:\\创新\\快速实验\\快速实验结果_十指标_WT0110\\penmanshiel\\45_少样本_半监督自训练\\metrics.json",
+      "log": "E:\\创新\\实验结果\\logs\\fast_metrics_v3\\penmanshiel__45_少样本_半监督自训练.log"
+    },
+    "penmanshiel/46_零样本_跨场迁移": {
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_sec": 18.7,
+      "metrics": "E:\\创新\\快速实验\\快速实验结果_十指标_WT0110\\penmanshiel\\46_零样本_跨场迁移\\metrics.json",
+      "log": "E:\\创新\\实验结果\\logs\\fast_metrics_v3\\penmanshiel__46_零样本_跨场迁移.log"
+    },
+    "penmanshiel/47_AnomalyTransformer": {
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_sec": 286.421,
+      "metrics": "E:\\创新\\快速实验\\快速实验结果_十指标_WT0110\\penmanshiel\\47_AnomalyTransformer\\metrics.json",
+      "log": "E:\\创新\\实验结果\\logs\\fast_metrics_v3\\penmanshiel__47_AnomalyTransformer.log"
+    },
+    "penmanshiel/48_TranAD": {
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_sec": 285.764,
+      "metrics": "E:\\创新\\快速实验\\快速实验结果_十指标_WT0110\\penmanshiel\\48_TranAD\\metrics.json",
+      "log": "E:\\创新\\实验结果\\logs\\fast_metrics_v3\\penmanshiel__48_TranAD.log"
+    },
+    "penmanshiel/49_TriTrackNet": {
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_sec": 246.557,
+      "metrics": "E:\\创新\\快速实验\\快速实验结果_十指标_WT0110\\penmanshiel\\49_TriTrackNet\\metrics.json",
+      "log": "E:\\创新\\实验结果\\logs\\fast_metrics_v3\\penmanshiel__49_TriTrackNet.log"
+    },
+    "penmanshiel/50_wt_transformer": {
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_sec": 317.744,
+      "metrics": "E:\\创新\\快速实验\\快速实验结果_十指标_WT0110\\penmanshiel\\50_wt_transformer\\metrics.json",
+      "log": "E:\\创新\\实验结果\\logs\\fast_metrics_v3\\penmanshiel__50_wt_transformer.log"
+    },
+    "penmanshiel/51_场内_农场无关基线": {
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_sec": 287.23,
+      "metrics": "E:\\创新\\快速实验\\快速实验结果_十指标_WT0110\\penmanshiel\\51_场内_农场无关基线\\metrics.json",
+      "log": "E:\\创新\\实验结果\\logs\\fast_metrics_v3\\penmanshiel__51_场内_农场无关基线.log"
+    },
+    "penmanshiel/52_零样本_富特征跨场": {
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_sec": 26.523,
+      "metrics": "E:\\创新\\快速实验\\快速实验结果_十指标_WT0110\\penmanshiel\\52_零样本_富特征跨场\\metrics.json",
+      "log": "E:\\创新\\实验结果\\logs\\fast_metrics_v3\\penmanshiel__52_零样本_富特征跨场.log"
+    },
+    "penmanshiel/53_迁移_实例重加权": {
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_sec": 34.827,
+      "metrics": "E:\\创新\\快速实验\\快速实验结果_十指标_WT0110\\penmanshiel\\53_迁移_实例重加权\\metrics.json",
+      "log": "E:\\创新\\实验结果\\logs\\fast_metrics_v3\\penmanshiel__53_迁移_实例重加权.log"
+    },
+    "penmanshiel/54_迁移_CORAL对齐": {
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_sec": 24.12,
+      "metrics": "E:\\创新\\快速实验\\快速实验结果_十指标_WT0110\\penmanshiel\\54_迁移_CORAL对齐\\metrics.json",
+      "log": "E:\\创新\\实验结果\\logs\\fast_metrics_v3\\penmanshiel__54_迁移_CORAL对齐.log"
+    },
+    "penmanshiel/55_迁移_DANN对抗": {
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_sec": 40.947,
+      "metrics": "E:\\创新\\快速实验\\快速实验结果_十指标_WT0110\\penmanshiel\\55_迁移_DANN对抗\\metrics.json",
+      "log": "E:\\创新\\实验结果\\logs\\fast_metrics_v3\\penmanshiel__55_迁移_DANN对抗.log"
+    },
+    "penmanshiel/56_迁移_跨场线性探针": {
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_sec": 229.205,
+      "metrics": "E:\\创新\\快速实验\\快速实验结果_十指标_WT0110\\penmanshiel\\56_迁移_跨场线性探针\\metrics.json",
+      "log": "E:\\创新\\实验结果\\logs\\fast_metrics_v3\\penmanshiel__56_迁移_跨场线性探针.log"
+    },
+    "penmanshiel/57_预训练_掩码重构": {
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_sec": 268.39,
+      "metrics": "E:\\创新\\快速实验\\快速实验结果_十指标_WT0110\\penmanshiel\\57_预训练_掩码重构\\metrics.json",
+      "log": "E:\\创新\\实验结果\\logs\\fast_metrics_v3\\penmanshiel__57_预训练_掩码重构.log"
+    },
+    "penmanshiel/58_预训练_下一步预测": {
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_sec": 233.081,
+      "metrics": "E:\\创新\\快速实验\\快速实验结果_十指标_WT0110\\penmanshiel\\58_预训练_下一步预测\\metrics.json",
+      "log": "E:\\创新\\实验结果\\logs\\fast_metrics_v3\\penmanshiel__58_预训练_下一步预测.log"
+    },
+    "penmanshiel/59_预训练_对比学习": {
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_sec": 271.492,
+      "metrics": "E:\\创新\\快速实验\\快速实验结果_十指标_WT0110\\penmanshiel\\59_预训练_对比学习\\metrics.json",
+      "log": "E:\\创新\\实验结果\\logs\\fast_metrics_v3\\penmanshiel__59_预训练_对比学习.log"
+    },
+    "penmanshiel/60_微调_全参": {
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_sec": 267.46,
+      "metrics": "E:\\创新\\快速实验\\快速实验结果_十指标_WT0110\\penmanshiel\\60_微调_全参\\metrics.json",
+      "log": "E:\\创新\\实验结果\\logs\\fast_metrics_v3\\penmanshiel__60_微调_全参.log"
+    },
+    "penmanshiel/61_微调_判别式学习率": {
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_sec": 298.328,
+      "metrics": "E:\\创新\\快速实验\\快速实验结果_十指标_WT0110\\penmanshiel\\61_微调_判别式学习率\\metrics.json",
+      "log": "E:\\创新\\实验结果\\logs\\fast_metrics_v3\\penmanshiel__61_微调_判别式学习率.log"
+    },
+    "penmanshiel/62_微调_分层解冻": {
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_sec": 259.671,
+      "metrics": "E:\\创新\\快速实验\\快速实验结果_十指标_WT0110\\penmanshiel\\62_微调_分层解冻\\metrics.json",
+      "log": "E:\\创新\\实验结果\\logs\\fast_metrics_v3\\penmanshiel__62_微调_分层解冻.log"
+    },
+    "penmanshiel/63_微调_LoRA": {
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_sec": 262.067,
+      "metrics": "E:\\创新\\快速实验\\快速实验结果_十指标_WT0110\\penmanshiel\\63_微调_LoRA\\metrics.json",
+      "log": "E:\\创新\\实验结果\\logs\\fast_metrics_v3\\penmanshiel__63_微调_LoRA.log"
+    },
+    "penmanshiel/64_从零训练对照": {
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_sec": 254.043,
+      "metrics": "E:\\创新\\快速实验\\快速实验结果_十指标_WT0110\\penmanshiel\\64_从零训练对照\\metrics.json",
+      "log": "E:\\创新\\实验结果\\logs\\fast_metrics_v3\\penmanshiel__64_从零训练对照.log"
+    },
+    "penmanshiel/65_联邦_FedAvg": {
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_sec": 249.352,
+      "metrics": "E:\\创新\\快速实验\\快速实验结果_十指标_WT0110\\penmanshiel\\65_联邦_FedAvg\\metrics.json",
+      "log": "E:\\创新\\实验结果\\logs\\fast_metrics_v3\\penmanshiel__65_联邦_FedAvg.log"
+    },
+    "penmanshiel/66_联邦_FedProx": {
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_sec": 248.202,
+      "metrics": "E:\\创新\\快速实验\\快速实验结果_十指标_WT0110\\penmanshiel\\66_联邦_FedProx\\metrics.json",
+      "log": "E:\\创新\\实验结果\\logs\\fast_metrics_v3\\penmanshiel__66_联邦_FedProx.log"
+    },
+    "penmanshiel/67_联邦_SCAFFOLD": {
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_sec": 267.243,
+      "metrics": "E:\\创新\\快速实验\\快速实验结果_十指标_WT0110\\penmanshiel\\67_联邦_SCAFFOLD\\metrics.json",
+      "log": "E:\\创新\\实验结果\\logs\\fast_metrics_v3\\penmanshiel__67_联邦_SCAFFOLD.log"
+    },
+    "penmanshiel/68_联邦_个性化PFL": {
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_sec": 313.002,
+      "metrics": "E:\\创新\\快速实验\\快速实验结果_十指标_WT0110\\penmanshiel\\68_联邦_个性化PFL\\metrics.json",
+      "log": "E:\\创新\\实验结果\\logs\\fast_metrics_v3\\penmanshiel__68_联邦_个性化PFL.log"
+    },
+    "penmanshiel/69_联邦_差分隐私": {
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_sec": 272.989,
+      "metrics": "E:\\创新\\快速实验\\快速实验结果_十指标_WT0110\\penmanshiel\\69_联邦_差分隐私\\metrics.json",
+      "log": "E:\\创新\\实验结果\\logs\\fast_metrics_v3\\penmanshiel__69_联邦_差分隐私.log"
+    },
+    "penmanshiel/70_集中式对照": {
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_sec": 278.468,
+      "metrics": "E:\\创新\\快速实验\\快速实验结果_十指标_WT0110\\penmanshiel\\70_集中式对照\\metrics.json",
+      "log": "E:\\创新\\实验结果\\logs\\fast_metrics_v3\\penmanshiel__70_集中式对照.log"
+    },
+    "penmanshiel/72_EWMA增强_软投票集成": {
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_sec": 347.611,
+      "metrics": "E:\\创新\\快速实验\\快速实验结果_十指标_WT0110\\penmanshiel\\72_EWMA增强_软投票集成\\metrics.json",
+      "log": "E:\\创新\\实验结果\\logs\\fast_metrics_v3\\penmanshiel__72_EWMA增强_软投票集成.log"
+    },
+    "penmanshiel/73_EWMA增强_LightGBM": {
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_sec": 251.989,
+      "metrics": "E:\\创新\\快速实验\\快速实验结果_十指标_WT0110\\penmanshiel\\73_EWMA增强_LightGBM\\metrics.json",
+      "log": "E:\\创新\\实验结果\\logs\\fast_metrics_v3\\penmanshiel__73_EWMA增强_LightGBM.log"
+    },
+    "penmanshiel/74_EWMA增强_随机森林": {
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_sec": 330.133,
+      "metrics": "E:\\创新\\快速实验\\快速实验结果_十指标_WT0110\\penmanshiel\\74_EWMA增强_随机森林\\metrics.json",
+      "log": "E:\\创新\\实验结果\\logs\\fast_metrics_v3\\penmanshiel__74_EWMA增强_随机森林.log"
+    },
+    "penmanshiel/75_EWMA增强_直方图梯度提升": {
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_sec": 257.068,
+      "metrics": "E:\\创新\\快速实验\\快速实验结果_十指标_WT0110\\penmanshiel\\75_EWMA增强_直方图梯度提升\\metrics.json",
+      "log": "E:\\创新\\实验结果\\logs\\fast_metrics_v3\\penmanshiel__75_EWMA增强_直方图梯度提升.log"
+    },
+    "penmanshiel/76_EWMA增强_ExtraTrees": {
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_sec": 283.785,
+      "metrics": "E:\\创新\\快速实验\\快速实验结果_十指标_WT0110\\penmanshiel\\76_EWMA增强_ExtraTrees\\metrics.json",
+      "log": "E:\\创新\\实验结果\\logs\\fast_metrics_v3\\penmanshiel__76_EWMA增强_ExtraTrees.log"
+    },
+    "penmanshiel/77_EWMA增强_Stacking堆叠": {
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_sec": 606.157,
+      "metrics": "E:\\创新\\快速实验\\快速实验结果_十指标_WT0110\\penmanshiel\\77_EWMA增强_Stacking堆叠\\metrics.json",
+      "log": "E:\\创新\\实验结果\\logs\\fast_metrics_v3\\penmanshiel__77_EWMA增强_Stacking堆叠.log"
+    }
+  },
+  "resumed_from": "2026-08-09 12:34:23",
+  "finished": "2026-08-09 18:16:06",
+  "n_success": 77,
+  "n_failed": 0,
+  "complete": true
+}

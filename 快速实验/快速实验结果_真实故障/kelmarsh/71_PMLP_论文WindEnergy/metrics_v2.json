@@ -1,0 +1,22 @@
+{
+ "n_events": 1,
+ "n_detected": 0,
+ "event_recall": 0.0,
+ "lead_minutes_median": NaN,
+ "n_alarm_segments": 26,
+ "n_false_segments": 26,
+ "far_per_day": 0.006029208811276425,
+ "alarm_precision": 0.0,
+ "event_f1": 0.0,
+ "healthy_days": 4312.340277777777,
+ "tier2_n": 1,
+ "tier2_detected": 0,
+ "point_auc_test": 0.28329944184728256,
+ "model": "71_PMLP_论文WindEnergy",
+ "threshold_pick": {
+  "rule": "event_f1_grid",
+  "thr": 342.44385768670884,
+  "val_f1": 0.012131423757371525
+ },
+ "val_event_f1": 0.012131423757371525
+}

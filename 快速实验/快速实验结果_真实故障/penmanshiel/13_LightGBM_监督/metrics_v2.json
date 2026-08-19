@@ -1,0 +1,22 @@
+{
+ "n_events": 10,
+ "n_detected": 6,
+ "event_recall": 0.6,
+ "lead_minutes_median": 392.8833333333333,
+ "n_alarm_segments": 369,
+ "n_false_segments": 350,
+ "far_per_day": 0.09780843131965697,
+ "alarm_precision": 0.08149779735682819,
+ "event_f1": 0.14350355526826114,
+ "healthy_days": 3578.4236111111113,
+ "tier2_n": 10,
+ "tier2_detected": 6,
+ "point_auc_test": 0.8474830333667325,
+ "model": "13_LightGBM_监督",
+ "threshold_pick": {
+  "rule": "event_f1_grid",
+  "thr": 0.02863124885255824,
+  "val_f1": 0.11828320378506253
+ },
+ "val_event_f1": 0.11828320378506253
+}

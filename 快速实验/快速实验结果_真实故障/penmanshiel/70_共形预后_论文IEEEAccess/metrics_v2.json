@@ -1,0 +1,22 @@
+{
+ "n_events": 10,
+ "n_detected": 0,
+ "event_recall": 0.0,
+ "lead_minutes_median": NaN,
+ "n_alarm_segments": 5,
+ "n_false_segments": 5,
+ "far_per_day": 0.0013972633045665282,
+ "alarm_precision": 0.0,
+ "event_f1": 0.0,
+ "healthy_days": 3578.4236111111113,
+ "tier2_n": 10,
+ "tier2_detected": 0,
+ "point_auc_test": 0.7392110767109881,
+ "model": "70_共形预后_论文IEEEAccess",
+ "threshold_pick": {
+  "rule": "event_f1_grid",
+  "thr": 3.7208305263519583,
+  "val_f1": 0.11475409836065574
+ },
+ "val_event_f1": 0.11475409836065574
+}

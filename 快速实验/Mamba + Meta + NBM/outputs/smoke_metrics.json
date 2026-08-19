@@ -1,0 +1,64 @@
+{
+ "penmanshiel": {
+  "NBM": {
+   "A_point_raw": {
+    "F1": 0.04366657827278352,
+    "precision": 0.029432793136320305,
+    "recall": 0.0845600821636426,
+    "accuracy": 0.9884398931072101,
+    "AUC": 0.7083043532238453,
+    "AUPRC": 0.01073782615624538,
+    "MCC": 0.044869437668492246,
+    "positive_rate": 0.0031210899559884647
+   },
+   "B_point_adjust": {
+    "F1": 0.18230852211434737,
+    "precision": 0.42947903430749684,
+    "recall": 0.1157137966449846,
+    "accuracy": 0.996760306488683,
+    "MCC": 0.22174683064487655
+   },
+   "C_event_one_to_one": {
+    "F1": 0.08403361344537816,
+    "precision": 0.07246376811594203,
+    "recall": 0.1,
+    "n_events": 50,
+    "n_hit": 5,
+    "n_false": 64,
+    "FAR_per_turbine_day": 0.009710957808543662
+   },
+   "D_case_control": {
+    "F1": 0.6460116398493666,
+    "precision": 0.6460116398493666,
+    "recall": 0.6460116398493666,
+    "accuracy": 0.6460116398493666,
+    "AUC": 0.7037230898658395,
+    "positive_rate": 0.5
+   }
+  },
+  "_meta": {
+   "farm": "penmanshiel",
+   "runtime_s": 11.0,
+   "n_test_events": 50,
+   "n_train_windows": 20000,
+   "device": "cuda",
+   "channels": 87,
+   "config": {
+    "farms": "penmanshiel",
+    "models": "NBM",
+    "W": 25,
+    "stride": 13,
+    "dim": 64,
+    "bs": 256,
+    "lr": 0.002,
+    "epochs": 2,
+    "meta_rounds": 6,
+    "meta_inner": 4,
+    "meta_lr": 0.4,
+    "max_train": 20000,
+    "seed": 20260815,
+    "tag": "smoke"
+   }
+  }
+ }
+}

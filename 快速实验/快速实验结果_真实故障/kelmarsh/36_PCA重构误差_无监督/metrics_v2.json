@@ -1,0 +1,22 @@
+{
+ "n_events": 1,
+ "n_detected": 1,
+ "event_recall": 1.0,
+ "lead_minutes_median": 710.3833333333333,
+ "n_alarm_segments": 8077,
+ "n_false_segments": 8070,
+ "far_per_day": 1.8713736579615672,
+ "alarm_precision": 0.0006074127720216332,
+ "event_f1": 0.0012140880914301723,
+ "healthy_days": 4312.340277777777,
+ "tier2_n": 1,
+ "tier2_detected": 1,
+ "point_auc_test": 0.8832257586745474,
+ "model": "36_PCA重构误差_无监督",
+ "threshold_pick": {
+  "rule": "event_f1_grid",
+  "thr": 0.12475702190298146,
+  "val_f1": 0.003585835948005379
+ },
+ "val_event_f1": 0.003585835948005379
+}

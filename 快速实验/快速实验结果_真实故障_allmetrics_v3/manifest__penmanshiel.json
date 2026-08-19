@@ -1,0 +1,22 @@
+{
+  "schema_version": "fast-run-manifest-v3",
+  "started": "2026-07-26 16:40:41",
+  "python": "E:\\ancoda\\chuangxin\\python.exe",
+  "variant": "real_fault_metrics_v1",
+  "result_set": "快速实验结果_真实故障_allmetrics_v3",
+  "seed": 0,
+  "expected_runs": 1,
+  "runs": {
+    "penmanshiel/10_AdaBoost": {
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_sec": 864.2,
+      "metrics": "E:\\创新\\快速实验\\快速实验结果_真实故障_allmetrics_v3\\penmanshiel\\10_AdaBoost\\metrics.json",
+      "log": "E:\\创新\\实验结果\\logs\\fast_metrics_v3\\penmanshiel__10_AdaBoost.log"
+    }
+  },
+  "finished": "2026-07-26 16:55:06",
+  "n_success": 1,
+  "n_failed": 0,
+  "complete": true
+}

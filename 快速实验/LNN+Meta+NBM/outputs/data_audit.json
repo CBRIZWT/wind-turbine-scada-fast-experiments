@@ -1,0 +1,216 @@
+{
+  "schema_version": "lnn-meta-nbm-data-audit-v1",
+  "lead_steps": 144,
+  "lead_hours": 24.0,
+  "guard_hours": 720.0,
+  "window_steps": 24,
+  "feature_names": [
+    "CPU temperature (°C)__resid",
+    "Front bearing temperature (°C)__resid",
+    "Gear oil inlet temperature (°C)__resid",
+    "Gear oil temperature (°C)__resid",
+    "Generator bearing front temperature (°C)__resid",
+    "Generator bearing rear temperature (°C)__resid",
+    "Hub temperature (°C)__resid",
+    "Nacelle ambient temperature (°C)__resid",
+    "Nacelle temperature (°C)__resid",
+    "Rear bearing temperature (°C)__resid",
+    "Rotor bearing temp (°C)__resid",
+    "Stator temperature 1 (°C)__resid",
+    "Temp. top box (°C)__resid",
+    "Temperature motor axis 1 (°C)__resid",
+    "Temperature motor axis 2 (°C)__resid",
+    "Temperature motor axis 3 (°C)__resid",
+    "Transformer cell temperature (°C)__resid",
+    "Transformer temperature (°C)__resid"
+  ],
+  "farms": {
+    "kelmarsh": {
+      "rows": 1840547,
+      "turbines": 6,
+      "tier1_episodes": 5,
+      "tier1_positive_rows_24h": 720,
+      "safe_rows_after_30d_guards": 1140738,
+      "tasks": {
+        "1": {
+          "pretrain": 400,
+          "adapt": 128,
+          "calibration_healthy": 600,
+          "evaluation_healthy": 1200,
+          "event_points_24h": 0
+        },
+        "2": {
+          "pretrain": 400,
+          "adapt": 128,
+          "calibration_healthy": 600,
+          "evaluation_healthy": 1200,
+          "event_points_24h": 144
+        },
+        "3": {
+          "pretrain": 400,
+          "adapt": 128,
+          "calibration_healthy": 600,
+          "evaluation_healthy": 1200,
+          "event_points_24h": 0
+        },
+        "4": {
+          "pretrain": 400,
+          "adapt": 128,
+          "calibration_healthy": 600,
+          "evaluation_healthy": 1200,
+          "event_points_24h": 0
+        },
+        "5": {
+          "pretrain": 400,
+          "adapt": 128,
+          "calibration_healthy": 600,
+          "evaluation_healthy": 1200,
+          "event_points_24h": 0
+        },
+        "6": {
+          "pretrain": 400,
+          "adapt": 128,
+          "calibration_healthy": 600,
+          "evaluation_healthy": 1200,
+          "event_points_24h": 576
+        }
+      },
+      "split_hash": "40a32ca42324d5b1",
+      "cols_hash": "82dce5fb44e7d39f"
+    },
+    "penmanshiel": {
+      "rows": 3948730,
+      "turbines": 14,
+      "tier1_episodes": 2,
+      "tier1_positive_rows_24h": 281,
+      "safe_rows_after_30d_guards": 2616394,
+      "tasks": {
+        "1": {
+          "pretrain": 400,
+          "adapt": 128,
+          "calibration_healthy": 600,
+          "evaluation_healthy": 1200,
+          "event_points_24h": 0
+        },
+        "10": {
+          "pretrain": 400,
+          "adapt": 128,
+          "calibration_healthy": 600,
+          "evaluation_healthy": 1200,
+          "event_points_24h": 0
+        },
+        "11": {
+          "pretrain": 400,
+          "adapt": 128,
+          "calibration_healthy": 600,
+          "evaluation_healthy": 1200,
+          "event_points_24h": 0
+        },
+        "12": {
+          "pretrain": 400,
+          "adapt": 128,
+          "calibration_healthy": 600,
+          "evaluation_healthy": 1200,
+          "event_points_24h": 0
+        },
+        "13": {
+          "pretrain": 400,
+          "adapt": 128,
+          "calibration_healthy": 600,
+          "evaluation_healthy": 1200,
+          "event_points_24h": 0
+        },
+        "14": {
+          "pretrain": 400,
+          "adapt": 128,
+          "calibration_healthy": 600,
+          "evaluation_healthy": 1200,
+          "event_points_24h": 0
+        },
+        "15": {
+          "pretrain": 400,
+          "adapt": 128,
+          "calibration_healthy": 600,
+          "evaluation_healthy": 1200,
+          "event_points_24h": 113
+        },
+        "2": {
+          "pretrain": 400,
+          "adapt": 128,
+          "calibration_healthy": 600,
+          "evaluation_healthy": 1200,
+          "event_points_24h": 0
+        },
+        "4": {
+          "pretrain": 400,
+          "adapt": 128,
+          "calibration_healthy": 600,
+          "evaluation_healthy": 1200,
+          "event_points_24h": 144
+        },
+        "5": {
+          "pretrain": 400,
+          "adapt": 128,
+          "calibration_healthy": 600,
+          "evaluation_healthy": 1200,
+          "event_points_24h": 0
+        },
+        "6": {
+          "pretrain": 400,
+          "adapt": 128,
+          "calibration_healthy": 600,
+          "evaluation_healthy": 1200,
+          "event_points_24h": 0
+        },
+        "7": {
+          "pretrain": 400,
+          "adapt": 128,
+          "calibration_healthy": 600,
+          "evaluation_healthy": 1200,
+          "event_points_24h": 0
+        },
+        "8": {
+          "pretrain": 400,
+          "adapt": 128,
+          "calibration_healthy": 600,
+          "evaluation_healthy": 1200,
+          "event_points_24h": 0
+        },
+        "9": {
+          "pretrain": 400,
+          "adapt": 128,
+          "calibration_healthy": 600,
+          "evaluation_healthy": 1200,
+          "event_points_24h": 0
+        }
+      },
+      "split_hash": "1a9a3d237973f95d",
+      "cols_hash": "108ebda88ed51c76"
+    }
+  },
+  "n_tasks": 20,
+  "n_tier1_episodes_total": 7,
+  "n_tier1_episodes_with_sequence_coverage": 7,
+  "task_names": [
+    "kelmarsh::1",
+    "kelmarsh::2",
+    "kelmarsh::3",
+    "kelmarsh::4",
+    "kelmarsh::5",
+    "kelmarsh::6",
+    "penmanshiel::1",
+    "penmanshiel::10",
+    "penmanshiel::11",
+    "penmanshiel::12",
+    "penmanshiel::13",
+    "penmanshiel::14",
+    "penmanshiel::15",
+    "penmanshiel::2",
+    "penmanshiel::4",
+    "penmanshiel::5",
+    "penmanshiel::6",
+    "penmanshiel::7",
+    "penmanshiel::8",
+    "penmanshiel::9"
+  ]
+}

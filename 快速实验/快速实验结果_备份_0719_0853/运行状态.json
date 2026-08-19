@@ -1,0 +1,588 @@
+{
+ "started": "2026-07-19 03:48:42",
+ "python": "E:\\ancoda\\chuangxin\\python.exe",
+ "farms": {
+  "kelmarsh": {
+   "models": {
+    "00_基线_残差能量.py": {
+     "exit": 0,
+     "sec": 7.8
+    },
+    "01_逻辑回归.py": {
+     "exit": 0,
+     "sec": 9.3
+    },
+    "02_感知机.py": {
+     "exit": 0,
+     "sec": 8.9
+    },
+    "03_朴素贝叶斯.py": {
+     "exit": 0,
+     "sec": 8.5
+    },
+    "04_LDA.py": {
+     "exit": 0,
+     "sec": 8.2
+    },
+    "05_QDA.py": {
+     "exit": 0,
+     "sec": 9.5
+    },
+    "06_K近邻.py": {
+     "exit": 0,
+     "sec": 16.3
+    },
+    "07_决策树.py": {
+     "exit": 0,
+     "sec": 34.0
+    },
+    "08_随机森林.py": {
+     "exit": 0,
+     "sec": 44.2
+    },
+    "09_ExtraTrees.py": {
+     "exit": 0,
+     "sec": 20.5
+    },
+    "10_AdaBoost.py": {
+     "exit": 0,
+     "sec": 610.0
+    },
+    "11_直方图梯度提升.py": {
+     "exit": 0,
+     "sec": 18.5
+    },
+    "12_XGBoost.py": {
+     "exit": 0,
+     "sec": 11.9
+    },
+    "13_LightGBM.py": {
+     "exit": 0,
+     "sec": 14.1
+    },
+    "14_CatBoost.py": {
+     "exit": 0,
+     "sec": 16.6
+    },
+    "15_线性SVM.py": {
+     "exit": 0,
+     "sec": 18.7
+    },
+    "16_核SVM.py": {
+     "exit": 0,
+     "sec": 69.2
+    },
+    "17_高斯过程.py": {
+     "exit": 0,
+     "sec": 251.8
+    },
+    "18_孤立森林.py": {
+     "exit": 0,
+     "sec": 18.8
+    },
+    "19_一类SVM.py": {
+     "exit": 0,
+     "sec": 12.6
+    },
+    "20_LOF.py": {
+     "exit": 0,
+     "sec": 16.0
+    },
+    "21_高斯混合.py": {
+     "exit": 0,
+     "sec": 24.7
+    },
+    "22_MLP.py": {
+     "exit": 0,
+     "sec": 13.9
+    },
+    "23_一维CNN.py": {
+     "exit": 0,
+     "sec": 43.5
+    },
+    "24_简单RNN.py": {
+     "exit": 0,
+     "sec": 41.6
+    },
+    "25_LSTM.py": {
+     "exit": 0,
+     "sec": 34.2
+    },
+    "26_GRU.py": {
+     "exit": 0,
+     "sec": 42.0
+    },
+    "27_TCN.py": {
+     "exit": 0,
+     "sec": 37.5
+    },
+    "28_Transformer.py": {
+     "exit": 0,
+     "sec": 50.1
+    },
+    "29_自编码器.py": {
+     "exit": 0,
+     "sec": 12.8
+    },
+    "30_变分自编码器.py": {
+     "exit": 0,
+     "sec": 13.0
+    },
+    "31_LSTM自编码器.py": {
+     "exit": 0,
+     "sec": 23.1
+    },
+    "32_DQN.py": {
+     "exit": 0,
+     "sec": 18.0
+    },
+    "33_REINFORCE.py": {
+     "exit": 0,
+     "sec": 16.3
+    },
+    "34_ActorCritic.py": {
+     "exit": 0,
+     "sec": 17.8
+    },
+    "35_PPO.py": {
+     "exit": 0,
+     "sec": 17.3
+    },
+    "36_PCA重构误差.py": {
+     "exit": 0,
+     "sec": 8.8
+    },
+    "37_KMeans距离.py": {
+     "exit": 0,
+     "sec": 12.8
+    },
+    "38_软投票集成.py": {
+     "exit": 0,
+     "sec": 59.6
+    },
+    "39_Stacking堆叠.py": {
+     "exit": 0,
+     "sec": 147.9
+    },
+    "40_马氏距离.py": {
+     "exit": 0,
+     "sec": 13.5
+    },
+    "41_自监督_预测误差.py": {
+     "exit": 0,
+     "sec": 23.4
+    },
+    "42_少样本_逻辑回归.py": {
+     "exit": 0,
+     "sec": 8.8
+    },
+    "43_少样本_梯度提升.py": {
+     "exit": 0,
+     "sec": 9.6
+    },
+    "44_少样本_原型法.py": {
+     "exit": 0,
+     "sec": 8.5
+    },
+    "45_少样本_半监督自训练.py": {
+     "exit": 0,
+     "sec": 9.2
+    },
+    "46_零样本_跨场迁移.py": {
+     "exit": 0,
+     "sec": 13.6
+    }
+   },
+   "n_fail": 0,
+   "log": "E:\\创新\\实验结果\\logs\\fastexp_allmetrics_kelmarsh.log"
+  },
+  "penmanshiel": {
+   "models": {
+    "00_基线_残差能量.py": {
+     "exit": 0,
+     "sec": 6.7
+    },
+    "01_逻辑回归.py": {
+     "exit": 0,
+     "sec": 8.1
+    },
+    "02_感知机.py": {
+     "exit": 0,
+     "sec": 7.4
+    },
+    "03_朴素贝叶斯.py": {
+     "exit": 0,
+     "sec": 7.1
+    },
+    "04_LDA.py": {
+     "exit": 0,
+     "sec": 7.2
+    },
+    "05_QDA.py": {
+     "exit": 0,
+     "sec": 8.5
+    },
+    "06_K近邻.py": {
+     "exit": 0,
+     "sec": 14.2
+    },
+    "07_决策树.py": {
+     "exit": 0,
+     "sec": 36.5
+    },
+    "08_随机森林.py": {
+     "exit": 0,
+     "sec": 43.4
+    },
+    "09_ExtraTrees.py": {
+     "exit": 0,
+     "sec": 19.8
+    },
+    "10_AdaBoost.py": {
+     "exit": 0,
+     "sec": 676.2
+    },
+    "11_直方图梯度提升.py": {
+     "exit": 0,
+     "sec": 16.8
+    },
+    "12_XGBoost.py": {
+     "exit": 0,
+     "sec": 10.3
+    },
+    "13_LightGBM.py": {
+     "exit": 0,
+     "sec": 12.4
+    },
+    "14_CatBoost.py": {
+     "exit": 0,
+     "sec": 10.4
+    },
+    "15_线性SVM.py": {
+     "exit": 0,
+     "sec": 17.8
+    },
+    "16_核SVM.py": {
+     "exit": 0,
+     "sec": 63.4
+    },
+    "17_高斯过程.py": {
+     "exit": 0,
+     "sec": 214.3
+    },
+    "18_孤立森林.py": {
+     "exit": 0,
+     "sec": 15.5
+    },
+    "19_一类SVM.py": {
+     "exit": 0,
+     "sec": 10.8
+    },
+    "20_LOF.py": {
+     "exit": 0,
+     "sec": 13.8
+    },
+    "21_高斯混合.py": {
+     "exit": 0,
+     "sec": 52.0
+    },
+    "22_MLP.py": {
+     "exit": 0,
+     "sec": 12.9
+    },
+    "23_一维CNN.py": {
+     "exit": 0,
+     "sec": 37.8
+    },
+    "24_简单RNN.py": {
+     "exit": 0,
+     "sec": 33.9
+    },
+    "25_LSTM.py": {
+     "exit": 0,
+     "sec": 34.8
+    },
+    "26_GRU.py": {
+     "exit": 0,
+     "sec": 34.7
+    },
+    "27_TCN.py": {
+     "exit": 0,
+     "sec": 40.3
+    },
+    "28_Transformer.py": {
+     "exit": 0,
+     "sec": 39.5
+    },
+    "29_自编码器.py": {
+     "exit": 0,
+     "sec": 11.4
+    },
+    "30_变分自编码器.py": {
+     "exit": 0,
+     "sec": 11.6
+    },
+    "31_LSTM自编码器.py": {
+     "exit": 0,
+     "sec": 20.2
+    },
+    "32_DQN.py": {
+     "exit": 0,
+     "sec": 16.7
+    },
+    "33_REINFORCE.py": {
+     "exit": 0,
+     "sec": 14.7
+    },
+    "34_ActorCritic.py": {
+     "exit": 0,
+     "sec": 16.0
+    },
+    "35_PPO.py": {
+     "exit": 0,
+     "sec": 15.5
+    },
+    "36_PCA重构误差.py": {
+     "exit": 0,
+     "sec": 7.2
+    },
+    "37_KMeans距离.py": {
+     "exit": 0,
+     "sec": 11.6
+    },
+    "38_软投票集成.py": {
+     "exit": 0,
+     "sec": 56.7
+    },
+    "39_Stacking堆叠.py": {
+     "exit": 0,
+     "sec": 139.1
+    },
+    "40_马氏距离.py": {
+     "exit": 0,
+     "sec": 11.2
+    },
+    "41_自监督_预测误差.py": {
+     "exit": 0,
+     "sec": 19.8
+    },
+    "42_少样本_逻辑回归.py": {
+     "exit": 0,
+     "sec": 6.9
+    },
+    "43_少样本_梯度提升.py": {
+     "exit": 0,
+     "sec": 8.5
+    },
+    "44_少样本_原型法.py": {
+     "exit": 0,
+     "sec": 7.3
+    },
+    "45_少样本_半监督自训练.py": {
+     "exit": 0,
+     "sec": 8.2
+    },
+    "46_零样本_跨场迁移.py": {
+     "skip": "源域=目标域, 零样本口径退化"
+    }
+   },
+   "n_fail": 0,
+   "log": "E:\\创新\\实验结果\\logs\\fastexp_allmetrics_penmanshiel.log"
+  },
+  "hill_of_towie": {
+   "models": {
+    "00_基线_残差能量.py": {
+     "exit": 0,
+     "sec": 20.2
+    },
+    "01_逻辑回归.py": {
+     "exit": 0,
+     "sec": 21.0
+    },
+    "02_感知机.py": {
+     "exit": 0,
+     "sec": 20.8
+    },
+    "03_朴素贝叶斯.py": {
+     "exit": 0,
+     "sec": 20.3
+    },
+    "04_LDA.py": {
+     "exit": 0,
+     "sec": 19.5
+    },
+    "05_QDA.py": {
+     "exit": 0,
+     "sec": 21.5
+    },
+    "06_K近邻.py": {
+     "exit": 0,
+     "sec": 38.5
+    },
+    "07_决策树.py": {
+     "exit": 0,
+     "sec": 47.0
+    },
+    "08_随机森林.py": {
+     "exit": 0,
+     "sec": 70.0
+    },
+    "09_ExtraTrees.py": {
+     "exit": 0,
+     "sec": 36.8
+    },
+    "10_AdaBoost.py": {
+     "exit": 0,
+     "sec": 651.1
+    },
+    "11_直方图梯度提升.py": {
+     "exit": 0,
+     "sec": 32.4
+    },
+    "12_XGBoost.py": {
+     "exit": 0,
+     "sec": 22.8
+    },
+    "13_LightGBM.py": {
+     "exit": 0,
+     "sec": 37.6
+    },
+    "14_CatBoost.py": {
+     "exit": 0,
+     "sec": 27.1
+    },
+    "15_线性SVM.py": {
+     "exit": 0,
+     "sec": 26.1
+    },
+    "16_核SVM.py": {
+     "exit": 0,
+     "sec": 114.9
+    },
+    "17_高斯过程.py": {
+     "exit": 0,
+     "sec": 351.3
+    },
+    "18_孤立森林.py": {
+     "exit": 0,
+     "sec": 38.4
+    },
+    "19_一类SVM.py": {
+     "exit": 0,
+     "sec": 28.1
+    },
+    "20_LOF.py": {
+     "exit": 0,
+     "sec": 38.7
+    },
+    "21_高斯混合.py": {
+     "exit": 0,
+     "sec": 42.6
+    },
+    "22_MLP.py": {
+     "exit": 0,
+     "sec": 27.9
+    },
+    "23_一维CNN.py": {
+     "exit": 0,
+     "sec": 61.3
+    },
+    "24_简单RNN.py": {
+     "exit": 0,
+     "sec": 74.0
+    },
+    "25_LSTM.py": {
+     "exit": 0,
+     "sec": 76.1
+    },
+    "26_GRU.py": {
+     "exit": 0,
+     "sec": 75.7
+    },
+    "27_TCN.py": {
+     "exit": 0,
+     "sec": 65.4
+    },
+    "28_Transformer.py": {
+     "exit": 0,
+     "sec": 71.2
+    },
+    "29_自编码器.py": {
+     "exit": 0,
+     "sec": 24.5
+    },
+    "30_变分自编码器.py": {
+     "exit": 0,
+     "sec": 25.0
+    },
+    "31_LSTM自编码器.py": {
+     "exit": 0,
+     "sec": 37.6
+    },
+    "32_DQN.py": {
+     "exit": 0,
+     "sec": 28.2
+    },
+    "33_REINFORCE.py": {
+     "exit": 0,
+     "sec": 26.3
+    },
+    "34_ActorCritic.py": {
+     "exit": 0,
+     "sec": 27.7
+    },
+    "35_PPO.py": {
+     "exit": 0,
+     "sec": 27.1
+    },
+    "36_PCA重构误差.py": {
+     "exit": 0,
+     "sec": 20.4
+    },
+    "37_KMeans距离.py": {
+     "exit": 0,
+     "sec": 23.9
+    },
+    "38_软投票集成.py": {
+     "exit": 0,
+     "sec": 87.0
+    },
+    "39_Stacking堆叠.py": {
+     "exit": 0,
+     "sec": 190.5
+    },
+    "40_马氏距离.py": {
+     "exit": 0,
+     "sec": 25.2
+    },
+    "41_自监督_预测误差.py": {
+     "exit": 0,
+     "sec": 38.9
+    },
+    "42_少样本_逻辑回归.py": {
+     "exit": 0,
+     "sec": 20.2
+    },
+    "43_少样本_梯度提升.py": {
+     "exit": 0,
+     "sec": 22.1
+    },
+    "44_少样本_原型法.py": {
+     "exit": 0,
+     "sec": 20.6
+    },
+    "45_少样本_半监督自训练.py": {
+     "exit": 0,
+     "sec": 20.7
+    },
+    "46_零样本_跨场迁移.py": {
+     "exit": 0,
+     "sec": 13.2
+    }
+   },
+   "n_fail": 0,
+   "log": "E:\\创新\\实验结果\\logs\\fastexp_allmetrics_hill_of_towie.log"
+  }
+ },
+ "finished": "2026-07-19 05:40:15"
+}

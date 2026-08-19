@@ -1,0 +1,37 @@
+{
+ "farm": "penmanshiel",
+ "baseline": {
+  "event_f1": 0.04942106749505789,
+  "event_recall": 0.7,
+  "lead_minutes_median": 701.8333333333334,
+  "far_per_day": 0.34400622558427923,
+  "point_auc_test": 0.8711119988625599
+ },
+ "combo": {
+  "model": "90_贪心组合_74+40+36+71",
+  "members": [
+   "74_置信区间CI_论文FiI",
+   "40_马氏距离_无监督",
+   "36_PCA重构误差_无监督",
+   "71_PMLP_论文WindEnergy"
+  ],
+  "threshold_pick": {
+   "rule": "conformal_a=0.001",
+   "thr": 0.9377016852506337,
+   "val_f1": 0.24788732394366197
+  },
+  "event_f1": 0.09147609147609148,
+  "event_recall": 0.1,
+  "lead_minutes_median": 631.8333333333334,
+  "far_per_day": 0.010619201114705613,
+  "point_auc_test": 0.7201242369841543
+ },
+ "goal_met_per_metric": {
+  "event_f1": true,
+  "event_recall": false,
+  "lead_minutes": false,
+  "far_per_day": true,
+  "point_auc": false
+ },
+ "goal_met_all": false
+}

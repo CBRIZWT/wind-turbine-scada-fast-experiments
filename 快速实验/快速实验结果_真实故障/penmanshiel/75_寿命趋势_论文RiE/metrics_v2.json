@@ -1,0 +1,22 @@
+{
+ "n_events": 10,
+ "n_detected": 1,
+ "event_recall": 0.1,
+ "lead_minutes_median": 716.5833333333334,
+ "n_alarm_segments": 97,
+ "n_false_segments": 96,
+ "far_per_day": 0.02682745544767734,
+ "alarm_precision": 0.0018225541070750538,
+ "event_f1": 0.0035798632691112497,
+ "healthy_days": 3578.4236111111113,
+ "tier2_n": 10,
+ "tier2_detected": 1,
+ "point_auc_test": 0.5364160661323116,
+ "model": "75_寿命趋势_论文RiE",
+ "threshold_pick": {
+  "rule": "event_f1_grid",
+  "thr": 0.9480099112138927,
+  "val_f1": 0.011871899711504534
+ },
+ "val_event_f1": 0.011871899711504534
+}

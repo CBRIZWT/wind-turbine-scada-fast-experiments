@@ -1,0 +1,33 @@
+{
+  "model": "63_一维CNN_论文1DCNN",
+  "family": "论文复现",
+  "threshold": 0.0011026377556845547,
+  "val_event_f1": 0.0,
+  "point_auc_test": 0.49764335538153875,
+  "n_events": 1,
+  "n_detected": 1,
+  "event_recall": 1.0,
+  "lead_minutes_median": 400.3833333333333,
+  "n_alarm_segments": 8676,
+  "n_false_segments": 8670,
+  "far_per_day": 2.010276161784336,
+  "alarm_precision": 0.00011720993471406637,
+  "event_f1": 0.0008432987034282435,
+  "composite_f1": 0.00023439239631066372,
+  "healthy_days": 4312.840277777777,
+  "tier2_n": 1,
+  "tier2_detected": 1,
+  "point_f1": 0.0002343209963328764,
+  "point_precision": 0.00011720993471406637,
+  "point_recall": 0.2777777777777778,
+  "accuracy": 0.7252131350781295,
+  "balanced_accuracy": 0.5015213941665562,
+  "mcc": 7.338913566993964e-05,
+  "auprc": 0.00011350581267902732,
+  "affiliation_f1": 0.00235599010484156,
+  "range_f1": 0.0008570404534589848,
+  "point_adjust_f1_附录": 0.0002460356048668186,
+  "lead_minutes_all": [
+    400.3833333333333
+  ]
+}

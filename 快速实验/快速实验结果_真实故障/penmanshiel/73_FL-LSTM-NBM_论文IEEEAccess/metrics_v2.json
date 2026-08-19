@@ -1,0 +1,22 @@
+{
+ "n_events": 10,
+ "n_detected": 5,
+ "event_recall": 0.5,
+ "lead_minutes_median": 619.1833333333333,
+ "n_alarm_segments": 440,
+ "n_false_segments": 420,
+ "far_per_day": 0.11737011758358835,
+ "alarm_precision": 0.013186813186813187,
+ "event_f1": 0.025695931477516063,
+ "healthy_days": 3578.4236111111113,
+ "tier2_n": 10,
+ "tier2_detected": 5,
+ "point_auc_test": 0.5060976581369714,
+ "model": "73_FL-LSTM-NBM_论文IEEEAccess",
+ "threshold_pick": {
+  "rule": "event_f1_grid",
+  "thr": 4.458888001361158,
+  "val_f1": 0.054554310764734534
+ },
+ "val_event_f1": 0.054554310764734534
+}

@@ -1,0 +1,35 @@
+{
+ "farm": "kelmarsh",
+ "baseline": {
+  "event_f1": 0.0001307084397434093,
+  "event_recall": 1.0,
+  "lead_minutes_median": 120.38333333333334,
+  "far_per_day": 1.4722864131843854,
+  "point_auc_test": 0.5935986983235915
+ },
+ "combo": {
+  "model": "90_贪心组合_74+71",
+  "members": [
+   "74_置信区间CI_论文FiI",
+   "71_PMLP_论文WindEnergy"
+  ],
+  "threshold_pick": {
+   "rule": "conformal_a=0.001",
+   "thr": 0.9549788860483105,
+   "val_f1": 0.03095975232198142
+  },
+  "event_f1": 0.0,
+  "event_recall": 0.0,
+  "lead_minutes_median": NaN,
+  "far_per_day": 0.014841129381603507,
+  "point_auc_test": 0.2669307576788047
+ },
+ "goal_met_per_metric": {
+  "event_f1": false,
+  "event_recall": false,
+  "lead_minutes": false,
+  "far_per_day": true,
+  "point_auc": false
+ },
+ "goal_met_all": false
+}

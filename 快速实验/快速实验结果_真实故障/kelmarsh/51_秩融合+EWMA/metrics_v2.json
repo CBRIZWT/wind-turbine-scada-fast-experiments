@@ -1,0 +1,22 @@
+{
+ "n_events": 1,
+ "n_detected": 0,
+ "event_recall": 0.0,
+ "lead_minutes_median": NaN,
+ "n_alarm_segments": 295,
+ "n_false_segments": 292,
+ "far_per_day": 0.067712652803566,
+ "alarm_precision": 0.0,
+ "event_f1": 0.0,
+ "healthy_days": 4312.340277777777,
+ "tier2_n": 1,
+ "tier2_detected": 0,
+ "point_auc_test": 0.8336322462649808,
+ "model": "51_秩融合+EWMA",
+ "threshold_pick": {
+  "rule": "event_f1_grid",
+  "thr": 0.9133461153466826,
+  "val_f1": 0.005241355989517288
+ },
+ "val_event_f1": 0.005241355989517288
+}

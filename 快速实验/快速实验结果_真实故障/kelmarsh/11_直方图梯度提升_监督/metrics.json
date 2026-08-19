@@ -1,0 +1,33 @@
+{
+  "model": "11_直方图梯度提升_监督",
+  "family": "监督ML",
+  "threshold": 0.024065732955932617,
+  "val_event_f1": 0.0004625495474081165,
+  "point_auc_test": 0.501710009999211,
+  "n_events": 1,
+  "n_detected": 1,
+  "event_recall": 1.0,
+  "lead_minutes_median": 710.3833333333333,
+  "n_alarm_segments": 488,
+  "n_false_segments": 486,
+  "far_per_day": 0.11268676062597316,
+  "alarm_precision": 0.0001167737362892226,
+  "event_f1": 0.00023352020355177743,
+  "composite_f1": 0.00023352020355177743,
+  "healthy_days": 4312.840277777777,
+  "tier2_n": 1,
+  "tier2_detected": 1,
+  "point_f1": 0.00023352020355177743,
+  "point_precision": 0.0001167737362892226,
+  "point_recall": 1.0,
+  "accuracy": 0.007431724253406341,
+  "balanced_accuracy": 0.5036583264766549,
+  "mcc": 0.0009243337614138854,
+  "auprc": 0.0001167737362892226,
+  "affiliation_f1": 0.00047270148900969034,
+  "range_f1": 7.777569295711933e-06,
+  "point_adjust_f1_附录": 0.00023352020355177743,
+  "lead_minutes_all": [
+    710.3833333333333
+  ]
+}

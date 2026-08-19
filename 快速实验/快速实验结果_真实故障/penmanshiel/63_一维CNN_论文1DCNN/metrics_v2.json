@@ -1,0 +1,22 @@
+{
+ "n_events": 10,
+ "n_detected": 7,
+ "event_recall": 0.7,
+ "lead_minutes_median": 548.4,
+ "n_alarm_segments": 399,
+ "n_false_segments": 379,
+ "far_per_day": 0.10591255848614282,
+ "alarm_precision": 0.04817618719889883,
+ "event_f1": 0.0901481004507405,
+ "healthy_days": 3578.4236111111113,
+ "tier2_n": 10,
+ "tier2_detected": 7,
+ "point_auc_test": 0.850698618560152,
+ "model": "63_一维CNN_论文1DCNN",
+ "threshold_pick": {
+  "rule": "event_f1_grid",
+  "thr": 0.9761456135167914,
+  "val_f1": 0.06377551020408165
+ },
+ "val_event_f1": 0.06377551020408165
+}

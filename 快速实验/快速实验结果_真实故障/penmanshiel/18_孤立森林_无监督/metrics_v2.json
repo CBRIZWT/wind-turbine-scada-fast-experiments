@@ -1,0 +1,22 @@
+{
+ "n_events": 10,
+ "n_detected": 10,
+ "event_recall": 1.0,
+ "lead_minutes_median": 667.8833333333333,
+ "n_alarm_segments": 2042,
+ "n_false_segments": 2017,
+ "far_per_day": 0.5636560170621374,
+ "alarm_precision": 0.01464838050773271,
+ "event_f1": 0.028873806510985853,
+ "healthy_days": 3578.4236111111113,
+ "tier2_n": 10,
+ "tier2_detected": 10,
+ "point_auc_test": 0.8128386604108351,
+ "model": "18_孤立森林_无监督",
+ "threshold_pick": {
+  "rule": "event_f1_grid",
+  "thr": 0.5065543456946394,
+  "val_f1": 0.09577809564537774
+ },
+ "val_event_f1": 0.09577809564537774
+}

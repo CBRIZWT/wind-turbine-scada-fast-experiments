@@ -1,0 +1,33 @@
+{
+  "model": "01_逻辑回归_监督",
+  "family": "监督ML",
+  "threshold": 1.1308487092599696e-10,
+  "val_event_f1": 0.002705495537811179,
+  "point_auc_test": 0.5696473717139156,
+  "n_events": 1,
+  "n_detected": 1,
+  "event_recall": 1.0,
+  "lead_minutes_median": 580.3833333333333,
+  "n_alarm_segments": 8965,
+  "n_false_segments": 8962,
+  "far_per_day": 2.077980964464962,
+  "alarm_precision": 0.00015720403196901195,
+  "event_f1": 0.0009048181566843442,
+  "composite_f1": 0.0003143586454914683,
+  "healthy_days": 4312.840277777777,
+  "tier2_n": 1,
+  "tier2_detected": 1,
+  "point_f1": 0.0003142657808561857,
+  "point_precision": 0.00015720403196901195,
+  "point_recall": 0.3472222222222222,
+  "accuracy": 0.7439291217009246,
+  "balanced_accuracy": 0.545598667648518,
+  "mcc": 0.0022496188454661043,
+  "auprc": 0.00016974157797909633,
+  "affiliation_f1": 0.0004962185806890068,
+  "range_f1": 0.00019410392622020857,
+  "point_adjust_f1_附录": 0.0003142657808561857,
+  "lead_minutes_all": [
+    580.3833333333333
+  ]
+}

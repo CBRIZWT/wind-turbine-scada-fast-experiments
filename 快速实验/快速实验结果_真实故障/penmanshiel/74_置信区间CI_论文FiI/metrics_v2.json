@@ -1,0 +1,22 @@
+{
+ "n_events": 10,
+ "n_detected": 5,
+ "event_recall": 0.5,
+ "lead_minutes_median": 608.4,
+ "n_alarm_segments": 1726,
+ "n_false_segments": 1706,
+ "far_per_day": 0.47674623951809936,
+ "alarm_precision": 0.008757297748123435,
+ "event_f1": 0.01721311475409836,
+ "healthy_days": 3578.4236111111113,
+ "tier2_n": 10,
+ "tier2_detected": 5,
+ "point_auc_test": 0.4088590747475753,
+ "model": "74_置信区间CI_论文FiI",
+ "threshold_pick": {
+  "rule": "event_f1_grid",
+  "thr": 10.33634529866203,
+  "val_f1": 0.041947565543071164
+ },
+ "val_event_f1": 0.041947565543071164
+}

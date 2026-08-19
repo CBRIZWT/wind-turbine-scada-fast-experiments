@@ -1,0 +1,22 @@
+{
+ "n_events": 10,
+ "n_detected": 6,
+ "event_recall": 0.6,
+ "lead_minutes_median": 630.5083333333333,
+ "n_alarm_segments": 396,
+ "n_false_segments": 362,
+ "far_per_day": 0.10116186325061663,
+ "alarm_precision": 0.02377003869541183,
+ "event_f1": 0.04572846508330379,
+ "healthy_days": 3578.4236111111113,
+ "tier2_n": 10,
+ "tier2_detected": 6,
+ "point_auc_test": 0.6528108528300527,
+ "model": "00_残差能量_零训练",
+ "threshold_pick": {
+  "rule": "event_f1_grid",
+  "thr": 6.065812059774238,
+  "val_f1": 0.09913912801999446
+ },
+ "val_event_f1": 0.09913912801999446
+}

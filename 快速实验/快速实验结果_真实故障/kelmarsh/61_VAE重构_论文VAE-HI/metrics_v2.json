@@ -1,0 +1,22 @@
+{
+ "n_events": 1,
+ "n_detected": 1,
+ "event_recall": 1.0,
+ "lead_minutes_median": 430.3833333333333,
+ "n_alarm_segments": 6547,
+ "n_false_segments": 6540,
+ "far_per_day": 1.5165779086826083,
+ "alarm_precision": 5.993407252022775e-05,
+ "event_f1": 0.00011986096128490951,
+ "healthy_days": 4312.340277777777,
+ "tier2_n": 1,
+ "tier2_detected": 1,
+ "point_auc_test": 0.7961649545796382,
+ "model": "61_VAE重构_论文VAE-HI",
+ "threshold_pick": {
+  "rule": "event_f1_grid",
+  "thr": 0.6988649398027843,
+  "val_f1": 0.0024714504857678544
+ },
+ "val_event_f1": 0.0024714504857678544
+}

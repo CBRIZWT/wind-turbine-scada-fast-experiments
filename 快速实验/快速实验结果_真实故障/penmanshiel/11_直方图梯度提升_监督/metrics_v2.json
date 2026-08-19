@@ -1,0 +1,22 @@
+{
+ "n_events": 10,
+ "n_detected": 7,
+ "event_recall": 0.7,
+ "lead_minutes_median": 701.8333333333334,
+ "n_alarm_segments": 1253,
+ "n_false_segments": 1231,
+ "far_per_day": 0.34400622558427923,
+ "alarm_precision": 0.025614754098360656,
+ "event_f1": 0.04942106749505789,
+ "healthy_days": 3578.4236111111113,
+ "tier2_n": 10,
+ "tier2_detected": 7,
+ "point_auc_test": 0.8711119988625599,
+ "model": "11_直方图梯度提升_监督",
+ "threshold_pick": {
+  "rule": "event_f1_grid",
+  "thr": 0.4823760983257606,
+  "val_f1": 0.09037393250974213
+ },
+ "val_event_f1": 0.09037393250974213
+}

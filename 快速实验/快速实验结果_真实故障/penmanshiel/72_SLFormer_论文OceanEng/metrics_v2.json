@@ -1,0 +1,22 @@
+{
+ "n_events": 10,
+ "n_detected": 4,
+ "event_recall": 0.4,
+ "lead_minutes_median": 620.5083333333333,
+ "n_alarm_segments": 552,
+ "n_false_segments": 534,
+ "far_per_day": 0.1492277209277052,
+ "alarm_precision": 0.01599247412982126,
+ "event_f1": 0.030755314337403892,
+ "healthy_days": 3578.4236111111113,
+ "tier2_n": 10,
+ "tier2_detected": 4,
+ "point_auc_test": 0.5044022398869255,
+ "model": "72_SLFormer_论文OceanEng",
+ "threshold_pick": {
+  "rule": "event_f1_grid",
+  "thr": 4.144810675378617,
+  "val_f1": 0.052296624239070284
+ },
+ "val_event_f1": 0.052296624239070284
+}

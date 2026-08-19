@@ -1,0 +1,60 @@
+{
+  "schema_version": "fast-run-manifest-v3",
+  "started": "2026-07-26 16:03:03",
+  "python": "E:\\ancoda\\chuangxin\\python.exe",
+  "variant": "real_fault_metrics_v1",
+  "result_set": "快速实验结果_真实故障_allmetrics_v3",
+  "seed": 0,
+  "expected_runs": 8,
+  "runs": {
+    "kelmarsh/03_朴素贝叶斯": {
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_sec": 33.734,
+      "metrics": "E:\\创新\\快速实验\\快速实验结果_真实故障_allmetrics_v3\\kelmarsh\\03_朴素贝叶斯\\metrics.json",
+      "log": "E:\\创新\\实验结果\\logs\\fast_metrics_v3\\kelmarsh__03_朴素贝叶斯.log"
+    },
+    "kelmarsh/04_LDA": {
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_sec": 35.02,
+      "metrics": "E:\\创新\\快速实验\\快速实验结果_真实故障_allmetrics_v3\\kelmarsh\\04_LDA\\metrics.json",
+      "log": "E:\\创新\\实验结果\\logs\\fast_metrics_v3\\kelmarsh__04_LDA.log"
+    },
+    "kelmarsh/05_QDA": {
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_sec": 34.776,
+      "metrics": "E:\\创新\\快速实验\\快速实验结果_真实故障_allmetrics_v3\\kelmarsh\\05_QDA\\metrics.json",
+      "log": "E:\\创新\\实验结果\\logs\\fast_metrics_v3\\kelmarsh__05_QDA.log"
+    },
+    "kelmarsh/10_AdaBoost": {
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_sec": 833.848,
+      "metrics": "E:\\创新\\快速实验\\快速实验结果_真实故障_allmetrics_v3\\kelmarsh\\10_AdaBoost\\metrics.json",
+      "log": "E:\\创新\\实验结果\\logs\\fast_metrics_v3\\kelmarsh__10_AdaBoost.log"
+    },
+    "penmanshiel/03_朴素贝叶斯": {
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_sec": 68.936,
+      "metrics": "E:\\创新\\快速实验\\快速实验结果_真实故障_allmetrics_v3\\penmanshiel\\03_朴素贝叶斯\\metrics.json",
+      "log": "E:\\创新\\实验结果\\logs\\fast_metrics_v3\\penmanshiel__03_朴素贝叶斯.log"
+    },
+    "penmanshiel/04_LDA": {
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_sec": 82.16,
+      "metrics": "E:\\创新\\快速实验\\快速实验结果_真实故障_allmetrics_v3\\penmanshiel\\04_LDA\\metrics.json",
+      "log": "E:\\创新\\实验结果\\logs\\fast_metrics_v3\\penmanshiel__04_LDA.log"
+    },
+    "penmanshiel/05_QDA": {
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_sec": 74.623,
+      "metrics": "E:\\创新\\快速实验\\快速实验结果_真实故障_allmetrics_v3\\penmanshiel\\05_QDA\\metrics.json",
+      "log": "E:\\创新\\实验结果\\logs\\fast_metrics_v3\\penmanshiel__05_QDA.log"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+ "n_events": 10,
+ "n_detected": 6,
+ "event_recall": 0.6,
+ "lead_minutes_median": 655.5083333333333,
+ "n_alarm_segments": 305,
+ "n_false_segments": 281,
+ "far_per_day": 0.07852619771663888,
+ "alarm_precision": 0.04339378238341969,
+ "event_f1": 0.08093416549224884,
+ "healthy_days": 3578.4236111111113,
+ "tier2_n": 10,
+ "tier2_detected": 6,
+ "point_auc_test": 0.7358275127412723,
+ "model": "60_AE重构_论文AE-NBM",
+ "threshold_pick": {
+  "rule": "event_f1_grid",
+  "thr": 2.517316245790257,
+  "val_f1": 0.11295814139795715
+ },
+ "val_event_f1": 0.11295814139795715
+}

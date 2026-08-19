@@ -1,0 +1,270 @@
+{
+ "penmanshiel": {
+  "NBM": {
+   "A_point_raw": {
+    "F1": 0.04366657827278352,
+    "precision": 0.029432793136320305,
+    "recall": 0.0845600821636426,
+    "accuracy": 0.9884398931072101,
+    "AUC": 0.7083043532238453,
+    "AUPRC": 0.01073782615624538,
+    "MCC": 0.044869437668492246,
+    "positive_rate": 0.0031210899559884647
+   },
+   "B_point_adjust": {
+    "F1": 0.18230852211434737,
+    "precision": 0.42947903430749684,
+    "recall": 0.1157137966449846,
+    "accuracy": 0.996760306488683,
+    "MCC": 0.22174683064487655
+   },
+   "C_event_one_to_one": {
+    "F1": 0.08403361344537816,
+    "precision": 0.07246376811594203,
+    "recall": 0.1,
+    "n_events": 50,
+    "n_hit": 5,
+    "n_false": 64,
+    "FAR_per_turbine_day": 0.009710957808543662
+   },
+   "D_case_control": {
+    "F1": 0.6460116398493666,
+    "precision": 0.6460116398493666,
+    "recall": 0.6460116398493666,
+    "accuracy": 0.6460116398493666,
+    "AUC": 0.7037230898658395,
+    "positive_rate": 0.5
+   }
+  },
+  "Mamba+NBM": {
+   "A_point_raw": {
+    "F1": 0.04154512507734465,
+    "precision": 0.02800285986653956,
+    "recall": 0.08045190003423486,
+    "accuracy": 0.9884142490952472,
+    "AUC": 0.5755716645311029,
+    "AUPRC": 0.008819345170009962,
+    "MCC": 0.04243096755962865,
+    "positive_rate": 0.0031210899559884647
+   },
+   "B_point_adjust": {
+    "F1": 0.24935199585277346,
+    "precision": 0.5133404482390609,
+    "recall": 0.16466963368709345,
+    "accuracy": 0.996905622556473,
+    "MCC": 0.28957246195419917
+   },
+   "C_event_one_to_one": {
+    "F1": 0.05405405405405404,
+    "precision": 0.04081632653061224,
+    "recall": 0.08,
+    "n_events": 50,
+    "n_hit": 4,
+    "n_false": 94,
+    "FAR_per_turbine_day": 0.014262969281298504
+   },
+   "D_case_control": {
+    "F1": 0.546388223211229,
+    "precision": 0.546388223211229,
+    "recall": 0.546388223211229,
+    "accuracy": 0.546388223211229,
+    "AUC": 0.5715905118010615,
+    "positive_rate": 0.5
+   }
+  },
+  "Mamba+Meta+NBM": {
+   "A_point_raw": {
+    "F1": 0.04136833731105807,
+    "precision": 0.0278836987607245,
+    "recall": 0.08010955152345087,
+    "accuracy": 0.9884121120942503,
+    "AUC": 0.5738873239487268,
+    "AUPRC": 0.008846116240832438,
+    "MCC": 0.04222776171722335,
+    "positive_rate": 0.0031210899559884647
+   },
+   "B_point_adjust": {
+    "F1": 0.24941664506092817,
+    "precision": 0.5138888888888888,
+    "recall": 0.16466963368709345,
+    "accuracy": 0.9969066910569714,
+    "MCC": 0.28972884332946547
+   },
+   "C_event_one_to_one": {
+    "F1": 0.05755395683453238,
+    "precision": 0.0449438202247191,
+    "recall": 0.08,
+    "n_events": 50,
+    "n_hit": 4,
+    "n_false": 85,
+    "FAR_per_turbine_day": 0.01289736583947205
+   },
+   "D_case_control": {
+    "F1": 0.5433070866141733,
+    "precision": 0.5433070866141733,
+    "recall": 0.5433070866141733,
+    "accuracy": 0.5433070866141733,
+    "AUC": 0.5694241407386407,
+    "positive_rate": 0.5
+   }
+  },
+  "_meta": {
+   "farm": "penmanshiel",
+   "runtime_s": 63.5,
+   "n_test_events": 50,
+   "n_train_windows": 20000,
+   "device": "cuda",
+   "channels": 87,
+   "config": {
+    "farms": "penmanshiel,kelmarsh",
+    "models": "NBM,Mamba+NBM,Mamba+Meta+NBM",
+    "W": 25,
+    "stride": 13,
+    "dim": 64,
+    "bs": 256,
+    "lr": 0.002,
+    "epochs": 2,
+    "meta_rounds": 6,
+    "meta_inner": 4,
+    "meta_lr": 0.4,
+    "max_train": 20000,
+    "seed": 20260815,
+    "tag": "quick"
+   }
+  }
+ },
+ "kelmarsh": {
+  "NBM": {
+   "A_point_raw": {
+    "F1": 0.00030912199692810017,
+    "precision": 0.00015459684042707378,
+    "recall": 0.6666666666666666,
+    "accuracy": 0.5000394543384473,
+    "AUC": 0.5916366944453839,
+    "AUPRC": 0.0001298340140637905,
+    "MCC": 0.003589521933805744,
+    "positive_rate": 0.00011594744360042578
+   },
+   "B_point_adjust": {
+    "F1": 0.001944526966808005,
+    "precision": 0.0009732096996566733,
+    "recall": 1.0,
+    "accuracy": 0.8809767283818407,
+    "MCC": 0.029280738804708113
+   },
+   "C_event_one_to_one": {
+    "F1": 0.0006682258603407952,
+    "precision": 0.00033422459893048126,
+    "recall": 1.0,
+    "n_events": 1,
+    "n_hit": 1,
+    "n_false": 2991,
+    "FAR_per_turbine_day": 0.6873875843665863
+   },
+   "D_case_control": {
+    "F1": 0.5555555555555556,
+    "precision": 0.5555555555555556,
+    "recall": 0.5555555555555556,
+    "accuracy": 0.5555555555555556,
+    "AUC": 0.5881558641975309,
+    "positive_rate": 0.5
+   }
+  },
+  "Mamba+NBM": {
+   "A_point_raw": {
+    "F1": 0.0004458866952364438,
+    "precision": 0.00022300963897217336,
+    "recall": 0.75,
+    "accuracy": 0.6101170586066016,
+    "AUC": 0.7025180871249234,
+    "AUPRC": 0.0001841591593419391,
+    "MCC": 0.007949580081367548,
+    "positive_rate": 0.00011594744360042578
+   },
+   "B_point_adjust": {
+    "F1": 0.00450056257032129,
+    "precision": 0.0022553564716200976,
+    "recall": 1.0,
+    "accuracy": 0.9487061392561005,
+    "MCC": 0.04625642783216652
+   },
+   "C_event_one_to_one": {
+    "F1": 0.0008517887563884157,
+    "precision": 0.00042607584149978694,
+    "recall": 1.0,
+    "n_events": 1,
+    "n_hit": 1,
+    "n_false": 2346,
+    "FAR_per_turbine_day": 0.5391545546385862
+   },
+   "D_case_control": {
+    "F1": 0.6666666666666666,
+    "precision": 0.6666666666666666,
+    "recall": 0.6666666666666666,
+    "accuracy": 0.6666666666666666,
+    "AUC": 0.724729938271605,
+    "positive_rate": 0.5
+   }
+  },
+  "Mamba+Meta+NBM": {
+   "A_point_raw": {
+    "F1": 0.0004458866952364438,
+    "precision": 0.00022300963897217336,
+    "recall": 0.75,
+    "accuracy": 0.6101170586066016,
+    "AUC": 0.7054614558889609,
+    "AUPRC": 0.00018636983837616968,
+    "MCC": 0.007949580081367548,
+    "positive_rate": 0.00011594744360042578
+   },
+   "B_point_adjust": {
+    "F1": 0.00450056257032129,
+    "precision": 0.0022553564716200976,
+    "recall": 1.0,
+    "accuracy": 0.9487061392561005,
+    "MCC": 0.04625642783216652
+   },
+   "C_event_one_to_one": {
+    "F1": 0.0008492569002123144,
+    "precision": 0.0004248088360237893,
+    "recall": 1.0,
+    "n_events": 1,
+    "n_hit": 1,
+    "n_false": 2353,
+    "FAR_per_turbine_day": 0.5407632851937738
+   },
+   "D_case_control": {
+    "F1": 0.6713286713286714,
+    "precision": 0.676056338028169,
+    "recall": 0.6666666666666666,
+    "accuracy": 0.6736111111111112,
+    "AUC": 0.7256944444444444,
+    "positive_rate": 0.5
+   }
+  },
+  "_meta": {
+   "farm": "kelmarsh",
+   "runtime_s": 41.5,
+   "n_test_events": 1,
+   "n_train_windows": 20000,
+   "device": "cuda",
+   "channels": 87,
+   "config": {
+    "farms": "penmanshiel,kelmarsh",
+    "models": "NBM,Mamba+NBM,Mamba+Meta+NBM",
+    "W": 25,
+    "stride": 13,
+    "dim": 64,
+    "bs": 256,
+    "lr": 0.002,
+    "epochs": 2,
+    "meta_rounds": 6,
+    "meta_inner": 4,
+    "meta_lr": 0.4,
+    "max_train": 20000,
+    "seed": 20260815,
+    "tag": "quick"
+   }
+  }
+ }
+}
